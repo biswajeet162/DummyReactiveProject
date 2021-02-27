@@ -14,7 +14,7 @@ import com.reactive.book.model.Book;
 import com.reactive.book.service.BookService;
 
 import reactor.core.publisher.Mono;
-//@Component
+@Component
 public class BookHandler {
 	@Autowired
 	private BookService bookService;
